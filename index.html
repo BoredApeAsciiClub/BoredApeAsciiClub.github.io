@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bored Ape Ascii Club</title>
+    <meta name="description" content="Bored Ape Ascii Club PFP collection on ApeChain🔥">
+    <meta property="og:image" content="img/fav.png">
+    <link rel="shortcut icon" href="img/fav.png">
+    <link rel="stylesheet" href="fonts//styleFonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__row">
+                    <div class="header__logo">
+                    
+                    </div>
+                    <div class="header__social">
+                        <a href="https://magiceden.io/collections/apechain/0x140a0b73ae0a8f1e555d6630c9db5cc4d6c167b6" target="_blank" class="social-item social-item_eser"">Magiceden
+                        </a>
+                        </a>
+                        <a href="https://apescan.io/address/0x140a0b73ae0a8f1e555d6630c9db5cc4d6c167b6" target="_blank" class="social-item social-item_open"">Contract
+                        </a>
+                    </div>
+                    <div class="header__wr-bnt">
+                        <button class="header__btn" id="connect_button">Connect wallet</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="container">
+                <div class="main__row">
+                    <div class="form">
+                            <h1 class="form__title">Bored Ape Ascii Club</h1>
+                            <p class="form__text">Live On Mint🔥
+                            </p>
+                            <div class="form__number"><span id="totalSupply">0</span>/<span id="maxSupply">10000</span></div>
+                            <div class="form__info">First 5 NFTs are free! Then 0.1 Ape each. Max 200 per transaction.</div>
+                            <div class="form__rows">
+<div class="rows">
+    <button class="btn-f min flex js-btn-min" type="button">–</button>
+    <label class="lab lab-in js-lab-in">
+        <input type="text" class="js-in-number in" value="" id="mint_amount">
+        <span>0</span>
+    </label>
+    <button class="btn-f add js-btn-add" type="button">+</button>
+    <button class="btn-f max js-btn-max" type="button">Max</button>
+</div>
+                                <div class="form__btn-bot">
+                                    <button class="btn-form" id="mint_button">Mint now</button>
+                                </div>
+                            </div>
+                            <!--div class="form__text-bottom">___<div-->
+                    </div>
+                    <div class="gif">
+                        <img src="img/cover.gif" alt="gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+    <script src="scripts/contract.js"></script>
+</body>
+
+</html>
